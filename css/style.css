@@ -1,0 +1,46 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /*border: 1px solid black; */
+    width: 600px;
+}
+
+#principal {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.item {
+    text-align: center;
+}
+
+#demo {
+    background-color: #f8f8f8;
+    color: #333;
+    font-weight: bolder;
+    font-size: 34px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Open Sans', sans-serif; /* Uma fonte mais estilizada */
+}
+
+#frase {
+    display: none;
+}
+
+.red {
+    color: rgb(180, 51, 51);
+}
